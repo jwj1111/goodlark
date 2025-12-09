@@ -168,7 +168,7 @@ print(mapping)
 | **`load_data_from_sheet`** | `spreadsheet_token`, `sheet_name`, `data_range` | **原始读取**。指定范围（如 "A1:E10"），返回原始的二维列表数据。 |
 | **`select_from_sheet_to_df`** | *可选参数* | **交互式读取**。`load_sheet_data_to_df` 的交互式包装器。未传入的参数会通过终端询问用户（如输入Token、范围等），适合脚本调试使用。 |
 
-## 4\. 写入飞书表格
+### 4\. 写入飞书表格
 支持单单元格、多行以及批量多行写入，内置了空值处理。
 | 方法名 | 参数 | 描述 |
 | :--- | :--- | :--- |
@@ -194,4 +194,5 @@ print(mapping)
 ## 作者
 **@ Wu, J. J.**
 *Based on Lark Open API*  
+
 <https://github.com/jwj1111/goodlark>
